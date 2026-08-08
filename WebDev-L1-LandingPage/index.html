@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TaskFlow - Modern productivity and team collaboration platform. Manage tasks, streamline workflows, and boost team output effortlessly.">
+  <title>TaskFlow — Organize Your Work Smarter</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION (STICKY)
+       ========================================== -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <!-- Brand Logo -->
+        <a href="#home" class="logo" aria-label="TaskFlow Homepage">
+          <div class="logo-icon">✓</div>
+          <span>TaskFlow</span>
+        </a>
+
+        <!-- Pure CSS Mobile Menu Checkbox Toggle -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Navigation Links -->
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Action CTA Button -->
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       MAIN CONTENT CONTAINER
+       ========================================== -->
+  <main>
+
+    <!-- ------------------------------------------
+         1. HERO SECTION (#home)
+         ------------------------------------------ -->
+    <section id="home" class="hero">
+      <div class="glow-blob glow-blob-1"></div>
+      <div class="glow-blob glow-blob-2"></div>
+      
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Content -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span>🚀 Next-Gen Productivity Platform</span>
+            </div>
+            
+            <h1 class="hero-title">
+              Organize Your Work <span class="gradient-text">Smarter.</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+              TaskFlow helps modern teams manage complex projects, automate repetitive daily workflows, and achieve peak productivity with an intuitive, unified workspace.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+              <a href="#features" class="btn btn-secondary btn-lg">Learn More</a>
+            </div>
+
+            <!-- Key Metric Counters -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <h4>99.9%</h4>
+                <p>Platform Uptime</p>
+              </div>
+              <div class="stat-item">
+                <h4>50,000+</h4>
+                <p>Productive Teams</p>
+              </div>
+              <div class="stat-item">
+                <h4>4.9 / 5</h4>
+                <p>User Satisfaction</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Visual Preview -->
+          <div class="hero-visual">
+            <div class="hero-visual-wrapper">
+              <img src="images/hero_dashboard.png" alt="TaskFlow SaaS Interactive Productivity Dashboard Interface" class="hero-visual-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------
+         2. FEATURES SECTION (#features)
+         ------------------------------------------ -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Key Features</span>
+          <h2 class="section-title">Everything You Need to Work Better</h2>
+          <p class="section-description">
+            Streamline project management with intuitive tools engineered to eliminate friction and elevate team output.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Card 1: Fast Workflow -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Fast Workflow</h3>
+            <p class="feature-desc">
+              Simplify daily operations with quick-action task cards, customizable kanban boards, and automated priority queues.
+            </p>
+          </article>
+
+          <!-- Card 2: Team Collaboration -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5 5 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Team Collaboration</h3>
+            <p class="feature-desc">
+              Stay aligned with real-time comments, direct task assignments, shared timelines, and instant project notifications.
+            </p>
+          </article>
+
+          <!-- Card 3: Secure Workspace -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Secure Workspace</h3>
+            <p class="feature-desc">
+              Protect enterprise data with end-to-end encryption, role-based access permissions, and continuous automated backups.
+            </p>
+          </article>
+
+          <!-- Card 4: Smart Analytics -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Real-Time Analytics</h3>
+            <p class="feature-desc">
+              Gain deep visibility into project speed, team performance metrics, and bottleneck alerts with automated reporting.
+            </p>
+          </article>
+
+          <!-- Card 5: Automated Pipelines -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Automated Tasks</h3>
+            <p class="feature-desc">
+              Eliminate manual overhead by setting up custom triggers, status updates, and automated recurring schedules.
+            </p>
+          </article>
+
+          <!-- Card 6: Seamless Integrations -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a2 2 0 01-2 2H3a2 2 0 01-2-2V4a2 2 0 012-2h8a2 2 0 012 2v1zm0 0h8a2 2 0 012 2v1a2 2 0 01-2 2h-8a2 2 0 01-2-2V5a2 2 0 012-2zM3 14h8a2 2 0 012 2v1a2 2 0 01-2 2H3a2 2 0 01-2-2v-1a2 2 0 012-2zm10 0h8a2 2 0 012 2v1a2 2 0 01-2 2h-8a2 2 0 01-2-2v-1a2 2 0 012-2z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Custom Views</h3>
+            <p class="feature-desc">
+              Switch effortlessly between List, Kanban, Gantt timeline, and Calendar layouts to suit your team's preferred style.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------
+         3. ABOUT SECTION (#about)
+         ------------------------------------------ -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Column: Visual Preview -->
+          <div class="about-visual">
+            <div class="about-img-frame">
+              <img src="images/about_preview.png" alt="TaskFlow Productivity and Workflow Management Visual Interface" class="about-img">
+            </div>
+          </div>
+
+          <!-- Right Column: Text & Benefits -->
+          <div class="about-content">
+            <span class="section-tag">Why TaskFlow</span>
+            <h2>Built for Better Productivity</h2>
+            <p>
+              TaskFlow was designed from the ground up to empower high-performing teams to organize work, minimize distractions, and deliver results faster than ever before.
+            </p>
+
+            <div class="benefits-list">
+              <!-- Benefit 1 -->
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <div class="benefit-text">
+                  <h4>Simple Workflow</h4>
+                  <p>Zero learning curve with clean, modern UX.</p>
+                </div>
+              </div>
+
+              <!-- Benefit 2 -->
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <div class="benefit-text">
+                  <h4>Better Collaboration</h4>
+                  <p>Keep everyone aligned across projects.</p>
+                </div>
+              </div>
+
+              <!-- Benefit 3 -->
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <div class="benefit-text">
+                  <h4>Organized Tasks</h4>
+                  <p>Prioritize goals and eliminate clutter.</p>
+                </div>
+              </div>
+
+              <!-- Benefit 4 -->
+              <div class="benefit-item">
+                <div class="benefit-icon">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                </div>
+                <div class="benefit-text">
+                  <h4>Flexible Workspace</h4>
+                  <p>Adaptable layouts built for any industry.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------
+         4. TESTIMONIALS SECTION (#testimonials)
+         ------------------------------------------ -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">Loved by Productive Teams</h2>
+          <p class="section-description">
+            Discover how innovative companies around the world use TaskFlow to stay organized and achieve incredible momentum.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card">
+            <div>
+              <div class="rating-stars">★★★★★</div>
+              <p class="testimonial-text">
+                "TaskFlow made it much easier for our team to stay organized and focused. Our sprint completion rate increased by 35% in the first month!"
+              </p>
+            </div>
+            <div class="testimonial-user">
+              <img src="images/avatar1.png" alt="Alex Morgan Avatar" class="user-avatar">
+              <div class="user-info">
+                <h4>Alex Morgan</h4>
+                <p>Product Manager at Apex Labs</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card">
+            <div>
+              <div class="rating-stars">★★★★★</div>
+              <p class="testimonial-text">
+                "The cleanest task management platform we've ever used. The automated notifications and real-time collaboration features are absolute game-changers."
+              </p>
+            </div>
+            <div class="testimonial-user">
+              <img src="images/avatar2.png" alt="David Chen Avatar" class="user-avatar">
+              <div class="user-info">
+                <h4>David Chen</h4>
+                <p>Engineering Lead at PulseTech</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card">
+            <div>
+              <div class="rating-stars">★★★★★</div>
+              <p class="testimonial-text">
+                "Switching our workflow to TaskFlow saved our remote team over 10 hours a week in unnecessary status update meetings."
+              </p>
+            </div>
+            <div class="testimonial-user">
+              <img src="images/avatar3.png" alt="Sarah Jenkins Avatar" class="user-avatar">
+              <div class="user-info">
+                <h4>Sarah Jenkins</h4>
+                <p>Operations Director at NovaScale</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------
+         5. FINAL CALL-TO-ACTION BANNER
+         ------------------------------------------ -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Ready to Work Smarter?</h2>
+          <p>
+            Join thousands of teams who trust TaskFlow to simplify project workflows, collaborate effortlessly, and drive results.
+          </p>
+          <a href="#contact" class="btn btn-primary btn-lg">Get Started Free</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       FOOTER & CONTACT SECTION (#contact)
+       ========================================== -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <div class="logo-icon">✓</div>
+            <span>TaskFlow</span>
+          </a>
+          <p>
+            The modern productivity and team collaboration platform designed for clarity, speed, and seamless output.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources Links -->
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul class="footer-links">
+            <li><a href="#features">Task Management</a></li>
+            <li><a href="#features">Team Collaboration</a></li>
+            <li><a href="#features">Security & Privacy</a></li>
+            <li><a href="#features">Integrations</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Social Links -->
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <div class="contact-info">
+            <p>Email: <a href="mailto:hello@taskflow.example">hello@taskflow.example</a></p>
+            <p>Location: San Francisco, CA</p>
+          </div>
+          
+          <div class="social-links">
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+              </svg>
+            </a>
+
+            <!-- Twitter / X -->
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Footer Line -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 TaskFlow. All rights reserved.</p>
+        <p>Oasis Infobyte - Web Development &amp; Designing - 1 - Task 1</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
